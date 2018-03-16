@@ -1,4 +1,4 @@
-I suggest that you this very simlple 1V/O Test patch first to orient yourself. It's just a saw wave controlled by a CV input from the first knob on your TT. To run it, simply upload the 1voauto folder into your patches directory on your Terminal Tedium. SSH into your Pi and then run:
+I suggest that you run this very simlple 1V/O Test patch first to orient yourself. It's just a saw wave controlled by a CV input from the first knob on your TT. To run it, simply upload the 1voauto folder into your patches directory on your Terminal Tedium. SSH into your Pi and then run:
 
 sudo /home/pi/PATH_TO_YOUR_PD_INSTALL/bin/pd -nogui -rt -midiindev 0,1 /home/pi/terminal_tedium/PATH_TO_YOUR_PATCHES_FOLDER/1vauto/main.pd
 
