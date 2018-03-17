@@ -8,7 +8,7 @@ sudo /home/pi/PATH_TO_YOUR_PD_INSTALL/bin/pd -nogui -rt -midiindev 0,1 /home/pi/
 
 (For more info on installed an OLED to your TT see: https://github.com/oldmanfury/tt_EBS
 
-Then patch your 1v/o CV into knob 1 and audio out to your mixer and test away. You will likely have to tune knob1 but everything should track accordingly.
+Then patch your 1v/o CV into knob 1 and audio out to your mixer and test away. The CV input on Knob 1 is normalized to the other two oscillators, which you can then offset if you like. (Chords? Super thick detuning?) You will likely have to tune knob1 but everything should track accordingly.
 
 For info on Terminal Tedium see: https://github.com/mxmxmx/terminal_tedium
 
